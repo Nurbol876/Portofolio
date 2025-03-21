@@ -9,6 +9,9 @@
   font-family: "Poppins", serif;
   transition: 0.5s ease-in-out all;
 }
+body{
+  background: url("../assets/main/bg.jpg") repeat center ;
+}
 button{
   cursor: pointer;
 }
@@ -60,14 +63,17 @@ button{
 }
 
 .main{
-  position: absolute;
-  top: 48px;
   width: 100%;
   &__active{
     padding-left: 25%;
   }
 }
+.pointer{
+  cursor: pointer;
+}
 @import "main/header";
 @import "main/hello";
 @import "me";
 @import "about";
+@import "projects";
+@import "connection";

@@ -1,14 +1,21 @@
 .me{
-  position: relative;
+  position: fixed;
   left: 0;
-  //height: 1000px;
+  top: 0;
+  height: 100vh;
   width: 25%;
   transform: translateX(-100%);
   background: #1b1b1b;
   border-right: 1px solid #313131;
   z-index: 2;
+  border-radius: 15px 0;
   &__active{
     transform: translateX(0);
+  }
+  &__x{
+    position: absolute;
+    top: 8px;
+    right: 14px;
   }
   &__top{
     padding: 8px 14px;

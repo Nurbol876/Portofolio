@@ -13,7 +13,7 @@
     <div class="container">
         <nav class="header__nav">
             <div class="header__left">
-                <img onclick="is = !is" src="../../src/assets/menu.svg" alt="| | |" class="header__menu">
+                <img onclick="is = !is" src="../../src/assets/menu.svg" alt="| | |" class="header__menu pointer">
                 <a href="../../index.html" class="logo">
                     NURBOL
                     <p class="logo__uz">.KG</p>
@@ -21,9 +21,6 @@
             </div>
             <div class="header__right">
                 <ul class="header__list">
-                    <li class="header__underline">
-
-                    </li>
                     <li class="header__item ">
                         <a href="../../index.html" class="header__link header__link-first">
                             Home
@@ -35,12 +32,12 @@
                         </a>
                     </li>
                     <li class="header__item">
-                        <a href="" class="header__link">
+                        <a href="./Projects.html" class="header__link">
                             Projects
                         </a>
                     </li>
                     <li class="header__item">
-                        <a href="" class="header__link">
+                        <a href="./connection.html" class="header__link">
                             Connection
                         </a>
                     </li>
@@ -64,8 +61,9 @@
     <div class="me__top">
         <img src="../../src/assets/left.svg" alt="<-">
         <img src="../../src/assets/right.svg" alt="->">
-        <img src="../../src/assets/re.svg" alt="↻">
+        <img src="../../src/assets/re.svg" alt="↻" class="reload pointer">
     </div>
+    <img src="../../src/assets/x.svg" alt="X" class="me__x pointer" width="24px" height="24px">
     <div class="me__about">
         <img src="../../src/assets/photo.jpg" alt="photo" class="me__image" width="280px" height="260px">
         <h2 class="me__name">
@@ -243,12 +241,7 @@
 </main>
 <script src="../../src/js/main.js"></script>
 <script>
-    const div = document.querySelector(".about")
-    const h  = div.clientHeight
-    const me = document.querySelector(".me")
-    let is = false;
-    console.log(is)
-    me.style.height = is ? `1349px` : `1691px`;
+
 </script>
 </body>
 </html>
